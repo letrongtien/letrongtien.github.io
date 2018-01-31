@@ -1,0 +1,297 @@
+        /* khung web*/
+        
+        body {
+            padding: 0px;
+            margin: 0px;
+            background-image: url('images/nen.jpg');
+            background-size: 100%;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .container>header {
+            background-image: url('images/thptchuvanan.png');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            padding-bottom: 160PX;
+            position: relative
+        }
+        
+        .container>nav>.menu {
+            line-height: 22px;
+            background-color: rgb(44, 131, 44);
+            text-align: center;
+            font-variant: small-caps;
+        }
+        
+        .container>article {
+            min-height: 1000px;
+            width: 75%;
+            background-color: white;
+            float: right;
+        }
+        
+        .container>aside {
+            min-height: 1015px;
+            width: 25%;
+            background-color: white;
+            float: left;
+        }
+        
+        .container>footer {
+            border-top: 5px double white;
+            line-height: 50px;
+            background-color: rgb(80, 172, 80);
+            text-align: center;
+            font-family: arial;
+            font-weight: bolder;
+            clear: both;
+            color: white
+        }
+        
+        .container>nav>a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        
+        .container>nav>a:hover {
+            color: yellow;
+            text-decoration: underline;
+        }
+        
+        iframe[name=page] {
+            width: 100%;
+            min-height: 1000px;
+            margin-top: 12px;
+        }
+        /* menu dọc*/
+        
+        .vmenu {
+            margin-top: 0px;
+            padding: 0px;
+            list-style: none;
+            box-shadow: 0px 0px 2px gray;
+            width: 97%;
+            background-color: rgb(115, 160, 115);
+        }
+        
+        .vmenu a {
+            background: url('images/phai.png');
+            background-repeat: no-repeat;
+            background-size: 15px;
+            background-position: 10px;
+            color: white;
+            display: block;
+            font-family: arial;
+            font-size: 12px;
+            font-weight: bolder;
+            text-decoration: none;
+            padding: 8px 5px 8px 30px;
+        }
+        
+        .vmenu>li {
+            border-bottom: 1px solid rgb(8, 90, 8);
+        }
+        
+        .vmenu a:hover {
+            background-image: url('images/tron.png');
+            background-repeat: no-repeat;
+            background-size: 15px;
+            background-position: 10px;
+            background-color: rgb(44, 131, 44);
+            color: white;
+            font-weight: bold;
+        }
+        
+        .vmenu ul {
+            display: inline-block;
+            position: absolute;
+            display: none;
+            padding: 0px;
+            list-style: none;
+            margin-left: 230px;
+            border-radius: 3px;
+            width: 250px;
+            background-color: white;
+            box-shadow: 0px 0px 1px gray;
+        }
+        
+        .vmenu>li>a:hover {
+            background-color: rgb(44, 131, 44);
+            color: white;
+        }
+        
+        .vmenu>li:hover>ul {
+            display: block;
+        }
+        
+        .vmenu ul a {
+            color: black;
+            border-bottom: 1px solid black;
+        }
+        /*ngang*/
+        
+        .menu ul ul {
+            position: absolute;
+            display: none;
+            padding: 0px;
+            list-style: none;
+            margin: 0px;
+            border-radius: 3px;
+            width: 200px;
+            background-color: white;
+            box-shadow: 0px 0px 1px gray;
+        }
+        
+        .menu ul ul a {
+            display: block;
+            line-height: 30px;
+            color: black;
+            text-decoration: none;
+            font-size: 12px;
+            padding: 0 10px;
+            background-color: white;
+            text-align: left;
+            border-bottom: 1px solid black;
+        }
+        
+        .menu>ul>li:hover>ul {
+            display: block;
+        }
+        
+        .menu ul ul a:hover {
+            background-color: rgb(44, 131, 44);
+            color: white;
+        }
+        
+        .menu>ul>li {
+            display: inline-block;
+            position: relative;
+        }
+        
+        .menu>ul>li>a {
+            display: block;
+            text-decoration: none;
+            font-variant: small-caps;
+            font-size: larger;
+            color: white;
+            padding: 0 10px;
+            line-height: 40px;
+            margin-left: 20px;
+        }
+        
+        .menu>ul>li>a:hover {
+            color: yellow;
+        }
+        
+        .menu>ul {
+            padding: 0px;
+            margin: 0px;
+            list-style: none;
+            border-radius: 0px;
+            background-color: rgb(80, 172, 80);
+            text-align: left;
+            font-family: arial;
+            font-size: 10px;
+            font-weight: bolder;
+        }
+        /*clip*/
+        
+        .container>aside>.clip {
+            padding: 5px;
+            margin-top: 0px;
+            box-shadow: 0px 0px 2px gray;
+            width: 93%;
+            background-color: rgb(115, 160, 115);
+            font-family: arial;
+            font-weight: bolder;
+            color: white;
+            font-size: 15px;
+        }
+        /*tim kiem*/
+        
+        .timkiem {
+            padding: 5px;
+            margin-top: 10px;
+            box-shadow: 0px 0px 2px gray;
+            width: 93%;
+            background-color: rgb(67, 145, 67);
+            font-family: arial;
+            font-weight: bolder;
+            color: white;
+            font-size: 15px;
+            border-top-right-radius: 10px;
+        }
+        
+        form {
+            margin-left: 3px;
+            padding: 5px;
+            width: 92%;
+            background-color: rgb(67, 145, 67);
+        }
+        /*liên kết*/
+        
+        .lienket {
+            padding: 5px;
+            margin-top: 0px;
+            box-shadow: 0px 0px 2px gray;
+            width: 93%;
+            background-color: rgb(115, 160, 115);
+            color: white;
+            text-decoration: none;
+            list-style: none;
+        }
+        
+        .lienket a {
+            background: url('images/phai.png');
+            background-repeat: no-repeat;
+            background-size: 15px;
+            background-position: 10px;
+            color: white;
+            display: block;
+            font-family: arial;
+            font-size: 14px;
+            font-weight: bolder;
+            text-decoration: none;
+            padding: 8px 5px 8px 30px;
+        }
+        
+        .lienket a:hover {
+            background-image: url('images/tron.png');
+            background-repeat: no-repeat;
+            background-size: 15px;
+            background-position: 10px;
+            background-color: rgb(44, 131, 44);
+            color: white;
+            font-weight: bold;
+        }
+        
+        .lk {
+            font-family: arial;
+            font-size: 15px;
+            font-weight: bolder;
+            margin-bottom: 0px;
+            padding: 10px;
+            border-top-right-radius: 10px;
+            width: 89%;
+            background-color: rgb(67, 145, 67);
+            color: white;
+            box-shadow: 0px 0px 2px gray;
+        }
+        
+        .cl {
+            font-family: arial;
+            font-size: 15px;
+            font-weight: bolder;
+            margin-bottom: 0px;
+            padding: 10px;
+            border-top-right-radius: 10px;
+            width: 89%;
+            background-color: rgb(67, 145, 67);
+            color: white;
+            box-shadow: 0px 0px 2px gray;
+        }
