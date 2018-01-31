@@ -3,7 +3,7 @@
         body {
             padding: 0px;
             margin: 0px;
-            background-image: url('images/nen.jpg');
+            background-image: url('nen.jpg');
             background-size: 100%;
         }
         
@@ -13,7 +13,7 @@
         }
         
         .container>header {
-            background-image: url('images/thptchuvanan.png');
+            background-image: url('thptchuvanan.png');
             background-size: 100% 100%;
             background-repeat: no-repeat;
             padding-bottom: 160PX;
@@ -80,7 +80,7 @@
         }
         
         .vmenu a {
-            background: url('images/phai.png');
+            background: url('phai.png');
             background-repeat: no-repeat;
             background-size: 15px;
             background-position: 10px;
@@ -98,7 +98,7 @@
         }
         
         .vmenu a:hover {
-            background-image: url('images/tron.png');
+            background-image: url('tron.png');
             background-repeat: no-repeat;
             background-size: 15px;
             background-position: 10px;
@@ -247,7 +247,7 @@
         }
         
         .lienket a {
-            background: url('images/phai.png');
+            background: url('phai.png');
             background-repeat: no-repeat;
             background-size: 15px;
             background-position: 10px;
@@ -261,7 +261,7 @@
         }
         
         .lienket a:hover {
-            background-image: url('images/tron.png');
+            background-image: url('tron.png');
             background-repeat: no-repeat;
             background-size: 15px;
             background-position: 10px;
